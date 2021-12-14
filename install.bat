@@ -3,6 +3,7 @@ choco feature enable -n allowGlobalConfirmation
 # utils
 choco install 7zip
 choco install adobereader
+choco install bitwarden
 choco install dropbox
 choco install firefox
 choco install teamviewer
