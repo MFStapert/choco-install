@@ -1,23 +1,28 @@
 choco feature enable -n allowGlobalConfirmation
 
-:: utils
+:: files
 choco install 7zip
 choco install adobereader
-choco install bitwarden
 choco install dropbox
-choco install firefox
+
+:: util
+choco install coretemp
+choco install bitwarden
 choco install teamviewer
 
 :: drivers
 choco install razer-synapse
 choco install geforce-experience
 
+:: productivity
+choco install libreoffice-fresh
+choco install obsidian
+
 :: creative
 choco install audacity
 choco install kdenlive
 choco install obs-studio
 choco install paint.net
-choco install obsidian
 
 :: dev
 choco install postman
@@ -27,11 +32,15 @@ choco install nodejs
 choco install vscode
 
 :: game
-choco install leagueoflegends
 choco install steam-client
 choco install discord
 
+:: chat
+choco install whatsapp
+choco install whatsapptray
+
 :: media
+choco install firefox
 choco install spotify
 choco install vlc
-choco install utorrent	
+choco install picotorrent
